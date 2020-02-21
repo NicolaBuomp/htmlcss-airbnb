@@ -6,29 +6,23 @@
 body{
   background-color: #ccc;
 }
-
-#banner-one{
+.banner{
   position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.one{
   background-image: url(../img/ny.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
-#banner-two{
-  position: relative;
+.two{
   background-image: url(../img/la.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
-#banner-three{
-  position: relative;
+.three{
   background-image: url(../img/milano.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
 
