@@ -43,6 +43,7 @@ body{
 }
 
 .content{
+  transition: 1s;
   position: absolute;
   font-size: 70px;
   position: absolute;
@@ -50,4 +51,8 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.content:hover{
+  font-size: 80px;
 }
